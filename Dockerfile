@@ -5,7 +5,7 @@ RUN apt update
 RUN apt install -y git libgl1
 
 RUN python -m pip install --upgrade pip setuptools
-RUN pip install git+https://github.com/JiahuiYu/neuralgym Pillow opencv-python
+RUN pip install git+https://github.com/JiahuiYu/neuralgym Pillow opencv-python pyyaml
 
 RUN mkdir in
 RUN mkdir out
